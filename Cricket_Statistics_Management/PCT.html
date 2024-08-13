@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>PCT</title>
+    <style>
+        .players{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap ;
+        }
+        .card{
+            height:340px;
+            width:260px;
+            border:1px solid black;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        .img{
+            width:100%;
+            height:60%;
+        }
+        img{
+            border-radius: 5px;
+            height:100%;
+            width:100%;
+        }
+    </style>
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <a class="navbar-brand" href="Homepage.html"><b>Cricket Info</b></a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Help.html">Help</a>
+            </li>
+        </ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </nav>
+    <center><h2>Pakistan Cricket Players</h2></center>
+    <div class="players">
+        <div class="card">
+            <div class="img" style="background-color: whitesmoke;">
+                <img src="./PCT/babar.png">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">BABAR AZAM</h5>
+                <p class="card-text">Batsman</p>
+                <a href="ba.php" class="btn btn-success">Stats</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img" style="background-color: whitesmoke;">
+                <img src="./PCT/rizwaan.png">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">MOHAMMED RIZWAAN</h5>
+                <p class="card-text">Batsman</p>
+                <a href="mr.php" class="btn btn-success">Stats</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img" style="background-color: whitesmoke;">
+                <img src="./PCT/fz.png">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">FAKHAR ZAMAN</h5>
+                <p class="card-text">Batsman</p>
+                <a href="fz.php" class="btn btn-success">Stats</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img" style="background-color: whitesmoke;">
+                <img src="./PCT/ns.png">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">NASEEM SHAH</h5>
+                <p class="card-text">Bowler</p>
+                <a href="ns.php" class="btn btn-success">Stats</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img" style="background-color: whitesmoke;">
+                <img src="./PCT/afridi.png">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">SHAHEEN AFRIDI</h5>
+                <p class="card-text">Bowler</p>
+                <a href="sa.php" class="btn btn-success">Stats</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

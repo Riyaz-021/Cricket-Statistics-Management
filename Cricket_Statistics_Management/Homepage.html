@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Homepage</title>
+    <style>
+        .card-img-top {
+            height: 150px;
+            object-fit: cover;
+}
+    </style>
+</head>
+<body style="background-image: url(background.jpg);background-size: cover;background-repeat: no-repeat;background-position: center;" class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <a class="navbar-brand" href="Homepage.html"><b>Cricket Info</b></a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Help.html">Help</a>
+            </li>
+        </ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </nav>
+    <center>
+        <h2> Select the country to check the stats of players of that country</h2>
+    </center>
+    <br><br>
+    <div class="FLAGS">
+        <div class="card" style="width: 18rem;">
+            <img src="./FLAGS/Flag_of_India.png" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">INDIA</h5>
+                <p class="card-text">The Indian cricket players are called 'Indians'.</p>
+                <a href="ICT.html" class="btn btn-primary">Explore</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./FLAGS/ausflg.png" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">AUSTRALIA</h5>
+                <p class="card-text">The Australian cricket players are called the 'Aussies'.</p>
+                <a href="ACT.html" class="btn btn-primary">Explore</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./FLAGS/pakflg.png" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">PAKISTAN</h5>
+                <p class="card-text">The Pakistan cricket players are called the 'Pakistanis'.</p>
+                <a href="PCT.html" class="btn btn-primary">Explore</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./FLAGS/engflg.png" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">ENGLAND</h5>
+                <p class="card-text">The England cricket players are called the 'English'.</p>
+                <a href="ECT.html" class="btn btn-primary">Explore</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

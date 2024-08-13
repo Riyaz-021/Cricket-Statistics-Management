@@ -1,0 +1,29 @@
+.nav-brand{
+    font-size: 25px;
+}
+ul{
+    font-size: 20px;
+}
+.nav-link{
+    opacity: 1;
+}
+.nav-link:hover{
+    color:#198754;
+    opacity:1;
+}
+form{
+    margin-left:60%;
+}
+h2{
+    color: whitesmoke;
+}
+.card{
+    background-color: #232323;
+    color: whitesmoke;
+}
+.FLAGS{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top: 80px;
+}
+

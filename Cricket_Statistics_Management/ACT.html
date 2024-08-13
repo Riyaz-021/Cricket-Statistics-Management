@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ACT</title>
+    <style>
+        .players{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap ;
+        }
+        .card{
+            height:340px;
+            width:260px;
+            border:1px solid black;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        .img{
+            width:100%;
+            height:60%;
+        }
+        img{
+            border-radius: 5px;
+            height:100%;
+            width:100%;
+        }
+    </style>
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <a class="navbar-brand" href="Homepage.html"><b>Cricket Info</b></a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Help.html">Help</a>
+            </li>
+        </ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </nav>
+    <center><h2>Australian Cricket Players</h2></center>
+    <div class="players">
+        <div class="card">
+            <div class="img" style="background-color: whitesmoke;">
+                <img src="./ACT/finch.png">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">AARON FINCH</h5>
+                <p class="card-text">Batsman</p>
+                <a href="af.php" class="btn btn-warning">Stats</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="./ACT/warner.jpg">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">DAVID WARNER</h5>
+                <p class="card-text">Batsman</p>
+                <a href="dw.php" class="btn btn-warning">Stats</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img" style="background-color: whitesmoke;">
+                <img src="./ACT/smith.png">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">STEVE SMITH</h5>
+                <p class="card-text">Batsman</p>
+                <a href="ss.php" class="btn btn-warning">Stats</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img" style="background-color: whitesmoke;">
+                <img src="./ACT/cummins.png">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">PAT CUMMINS</h5>
+                <p class="card-text">Bowler</p>
+                <a href="pc.php" class="btn btn-warning">Stats</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="./ACT/starc.png">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">MITCHELL STARC</h5>
+                <p class="card-text">Bowler</p>
+                <a href="ms.php" class="btn btn-warning">Stats</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
