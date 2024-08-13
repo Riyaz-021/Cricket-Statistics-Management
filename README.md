@@ -43,7 +43,7 @@ Cricket Statistics Management is a web-based application designed to manage and 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/Cricket-Statistics-Management.git
+    git clone https://github.com/Riyaz-021/Cricket-Statistics-Management.git
 
 2. **Navigate to the project directory**:
 
